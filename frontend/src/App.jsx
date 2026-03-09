@@ -295,7 +295,7 @@ function App() {
     <div className="app">
       <aside className="app-sidebar">
         <div className="sidebar-header">
-          <h1>Ableton Viewer</h1>
+          <h1>APVee</h1>
         </div>
         <nav className="sidebar-nav">
           <button className={`nav-btn ${navCategory === 'all' ? 'active' : ''}`} onClick={() => setNavCategory('all')}>
