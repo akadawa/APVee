@@ -4,7 +4,9 @@ APVee is a sleek, DAW-inspired web interface for browsing, managing, and listeni
 
 It automatically scans your project directory, reads `.als` files for metadata, and surfaces your audio exports for instant playback — all without touching Ableton.
 
-![APVee Dashboard](docs/screenshot.png)
+![APVee Dashboard](docs/screenshot1.png)
+
+![APVee Detail Panel](docs/screenshot2.png)
 
 ---
 
