@@ -1,0 +1,11 @@
+services:
+  ableton-viewer:
+    build: .
+    ports:
+      - "3001:3001"
+    volumes:
+      - "//lcars/akadawa/Projekte/Ableton:/music"
+    environment:
+      - MUSIC_DIR=/music
+      - PORT=3001
+    restart: unless-stopped
